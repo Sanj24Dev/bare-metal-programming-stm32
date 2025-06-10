@@ -4,6 +4,15 @@ This repository contains a collection of **bare-metal embedded C projects** for 
 
 ---
 
+## 🧠 Goals of This Repository
+
+- Master low-level peripheral control (GPIO, EXTI, UART, TIM, etc.)
+- Understand ARM Cortex-M0+ architecture
+- Practice debugging using register references
+- Avoid abstraction layers (no HAL, no Arduino)
+
+---
+
 ## 🔧 Repository Structure
 
 Each project is organized into its own folder with the following contents:
@@ -12,13 +21,15 @@ Each project is organized into its own folder with the following contents:
 - `diagram.json` – Defines the virtual hardware circuit used in Wokwi.
 - `wokwi-project.txt` – URL to open the project simulation on [Wokwi](https://wokwi.com).
 
+---
+
 ## 📁 Projects
 
 | Project | Description |
 |--------|-------------|------------------|
 | `LED Blinky` | Basic GPIO output toggle using delay loop |
-| `LED Blinky with button` | External interrupt on button press |
-| `LED Blinky with EXTI` | UART transmission using bare-metal code |
+| `LED Blinky with button` | GPIO toggle triggered by button press using polling |
+| `LED Blinky with EXTI` | GPIO toggle triggered by button press using external interrupt |
 
 
 ## 📘 Documentation
@@ -47,9 +58,3 @@ To simulate a project:
 3. Modify `sketch.ino` and `diagram.json` to experiment with code and circuit.
 4. Click **Start Simulation**.
 
-## 🧠 Goals of This Repository
-
-- Master low-level peripheral control (GPIO, EXTI, UART, TIM, etc.)
-- Understand ARM Cortex-M0+ architecture
-- Practice debugging using register references
-- Avoid abstraction layers (no HAL, no Arduino)
