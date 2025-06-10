@@ -25,12 +25,14 @@ Each project is organized into its own folder with the following contents:
 
 ## 📁 Projects
 
-| Project | Description |
-|--------|-------------|------------------|
-| `LED Blinky` | Basic GPIO output toggle using delay loop |
-| `LED Blinky with button` | GPIO toggle triggered by button press using polling |
-| `LED Blinky with EXTI` | GPIO toggle triggered by button press using external interrupt |
+| Project                 | Description                                               |
+|-------------------------|-----------------------------------------------------------|
+| `LED Blinky`            | Basic GPIO output toggle using delay loop                |
+| `LED Blinky with button`| GPIO toggle triggered by button press using polling      |
+| `LED Blinky with EXTI`  | GPIO toggle triggered by button press using external interrupt |
 
+
+---
 
 ## 📘 Documentation
 
@@ -42,12 +44,15 @@ Reference documents used for register-level programming and debugging:
 - [✅ STM32 Programming Manual (PM0215)](https://www.st.com/resource/en/programming_manual/pm0223-stm32-cortexm0-mcus-programming-manual-stmicroelectronics.pdf)
 - [✅ Nucleo-64 Board Schematic](https://www.st.com/resource/en/schematic_pack/mb1717-c031c6-b02_schematic.pdf)
 
+---
 
 ## 🚀 Tools Used
 
 - **Wokwi** – Online simulator for microcontrollers: [https://wokwi.com](https://wokwi.com)
 - **STM32C031C6** – Cortex-M0+ MCU used for bare-metal experiments
 - **Register-level C** – No HAL/LL/Arduino libraries
+
+---
 
 ## ⚙️ Getting Started
 
